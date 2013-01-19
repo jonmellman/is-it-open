@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/hours_text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:text="title"
+        android:textSize="30dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/sunday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/monday"
+        android:layout_below="@+id/hours_text_title"
+        android:layout_marginTop="30dp"
+        android:text="sunday" />
+
+    <TextView
+        android:id="@+id/monday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sunday"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="monday" />
+
+    <TextView
+        android:id="@+id/tuesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/monday"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="tuesday" />
+
+    <TextView
+        android:id="@+id/wednesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tuesday"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="wednesday" />
+
+    <TextView
+        android:id="@+id/thursday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wednesday"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="thursday" />
+
+    <TextView
+        android:id="@+id/friday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thursday"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="friday" />
+
+    <TextView
+        android:id="@+id/saturday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/friday"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="saturday" />
+
+</RelativeLayout>
