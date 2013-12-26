@@ -1,6 +1,6 @@
 is-it-open
 ==========
-is-it-open is an Android app that stores business names and their hours of operation, then simply displays whether they are opened or closed.
+is-it-open is an Android app that stores business names and their hours of operation, then simply displays whether they are opened or closed. I use the app to keep track of restaurants, services, etc. around my campus.
 
 Screenshot of the home screen:
 
